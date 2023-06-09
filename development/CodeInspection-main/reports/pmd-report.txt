@@ -1,0 +1,3 @@
+src/main/java/labcodeinspection/Email.java:7:	RedundantFieldInitializer:	RedundantFieldInitializer: Avoid using redundant field initializer for 'password'
+src/main/java/labcodeinspection/Email.java:23:	SwitchStmtsShouldHaveDefault:	SwitchStmtsShouldHaveDefault: Switch statements should be exhaustive, add a default case (or missing enum branches)
+src/main/java/labcodeinspection/Email.java:43:	StringInstantiation:	StringInstantiation: Avoid instantiating String objects; this is usually unnecessary.
