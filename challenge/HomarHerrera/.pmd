@@ -5,11 +5,23 @@
     <includePatterns/>
     <rules>
         <rule>
+            <name>AvoidReassigningCatchVariables</name>
+            <ruleset>Best Practices</ruleset>
+        </rule>
+        <rule>
             <name>UseTryWithResources</name>
             <ruleset>Best Practices</ruleset>
         </rule>
         <rule>
             <name>UnnecessaryImport</name>
+            <ruleset>Code Style</ruleset>
+        </rule>
+        <rule>
+            <name>UnnecessaryReturn</name>
+            <ruleset>Code Style</ruleset>
+        </rule>
+        <rule>
+            <name>UseDiamondOperator</name>
             <ruleset>Code Style</ruleset>
         </rule>
     </rules>
